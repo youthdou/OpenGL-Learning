@@ -16,6 +16,9 @@
     <Filter Include="源文件\Hello-Triangle">
       <UniqueIdentifier>{cb528e04-a124-40ad-8e3f-828a3275e8c8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{6606ae0a-c2ac-4b0a-87d7-28caf1b90531}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\glad\src\glad.c">
@@ -24,5 +27,10 @@
     <ClCompile Include="main.cpp">
       <Filter>源文件\Hello-Triangle</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Filter>doc</Filter>
+    </None>
   </ItemGroup>
 </Project>
