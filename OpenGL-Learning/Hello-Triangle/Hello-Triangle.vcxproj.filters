@@ -24,7 +24,7 @@
     <ClCompile Include="..\..\glad\src\glad.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="main-2VAO.cpp">
       <Filter>源文件\Hello-Triangle</Filter>
     </ClCompile>
   </ItemGroup>
