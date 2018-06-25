@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\Hello-Triangle">
+      <UniqueIdentifier>{cb528e04-a124-40ad-8e3f-828a3275e8c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="doc">
+      <UniqueIdentifier>{6606ae0a-c2ac-4b0a-87d7-28caf1b90531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Coordinate-Systems">
+      <UniqueIdentifier>{450623d0-5c33-45a9-a05b-6a5944f61e66}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Camera">
+      <UniqueIdentifier>{d93de14a-4ca0-4b0c-9f84-91210aa77ab6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Instancing">
+      <UniqueIdentifier>{859f412c-b572-4950-a307-20fc775bb80a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{9631637e-c7b1-41c6-bef9-c2eb3b188aae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Filter>doc</Filter>
+    </None>
+    <None Include="Shaders\instancing.vs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\instancing.fs">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Shaders\instancing-more.vs">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\glad\src\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Instancing\instancing-more.cpp">
+      <Filter>源文件\Instancing</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\common\myUtility.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\shader_m.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Resources\awesomeface.png">
+      <Filter>资源文件</Filter>
+    </Image>
+    <Image Include="Resources\container.jpg">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
