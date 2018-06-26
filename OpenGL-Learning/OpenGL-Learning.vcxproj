@@ -26,9 +26,10 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\glad\src\glad.c" />
-    <ClCompile Include="Instancing\instancing-more.cpp" />
+    <ClCompile Include="NormalMapping\NormalMapping.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\common\camera.h" />
     <ClInclude Include="..\common\myUtility.h" />
     <ClInclude Include="..\common\shader_m.h" />
     <ClInclude Include="..\common\stb_image.h" />

@@ -47,11 +47,11 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\glad\src\glad.c">
+    <ClCompile Include="NormalMapping\NormalMapping.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="Instancing\instancing-more.cpp">
-      <Filter>源文件\Instancing</Filter>
+    <ClCompile Include="..\glad\src\glad.c">
+      <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -62,6 +62,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="..\common\stb_image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\common\camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
